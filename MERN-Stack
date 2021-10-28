@@ -1,0 +1,37 @@
+## SIMPLE TODO APPLICATION ON MERN WEB STACK
+
+The projects show an interface popularly called GUI where a user interacts with the ReactJS UI components
+at the software front-end residing in the browser. This frontend is served by the software backend residing in a server,
+through ExpressJS running on top of NodeJS. Any interaction or data change request is sent to the NodeJS based Express server,
+which collects data from the MongoDB database if required, and returns the data to the frontend of the application,
+which is then presented to the user consumption.
+
+          The following processes describes the 
+          
+   TASK TO DEPLOY A SIMPLE TO DO LIST APPLICATION
+   
+   I started this project by first creating a MERN-stack web server in Aws in my availability zone eu-west 2a,
+   configured the security group with the necessary configuration settings SSH on port:22 
+   , HTTP on port :80 , customer TCP on port:5000 and another customer TCP on port:3000 opened for thereby creating the necessity FIREWALL.
+   I created my private key to be able to connect to my EC2 instance 
+   and with the help of the key i was able to use (SSH client) connection to connect to my instance
+   using Gitbash installed on my machine
+
+INSTALLING THE NGINX WEB SERVER
+
+updated my machine by running
+
+sudo apt update
+
+ BACKEND CONFIGURATION
+Before i start i need to first configure the backend server to do this but i need to first update ubuntu web server
+by running the command below. I equally took the time to upgrade ubuntu so that it has the latest components as shown below:
+Update ubuntu
+sudo apt update
+Upgrade ubuntu
+sudo apt upgrade
+![image](https://user-images.githubusercontent.com/55473846/139344672-8f5e0d4d-22cd-4f3d-9e1d-03d17ec30bad.png)
+
+sudo apt update
+
+![image](https://user-images.githubusercontent.com/55473846/139344769-c1268d4a-d6de-4177-94f4-af63b762299b.png)
